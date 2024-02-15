@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/thibaulthulaux/repo_name">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo-powershell-512.png" alt="Logo" width="128" height="128">
   </a>
 
 <h3 align="center">project_title</h3>
