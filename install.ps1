@@ -15,8 +15,8 @@ function eexit { info "Error: $args"; exit 1}
 function main
 {
     # check requirements
-    if (!(Test-Path $sourceDir)) { eexit "directory $sourceDir does not exist." }
-    if (!(Test-Path $targetDir)) { eexit "directory $targetDir does not exist." }
+    if (!(Test-Path $sourceDir)) { eexit "Directory $sourceDir does not exist." }
+    if (!(Test-Path $targetDir)) { eexit "Directory $targetDir does not exist." }
     # loop through files
     foreach ($file in (Get-ChildItem -Recurse -File -Filter "*.ps1" $sourceDir)) {
         $sourceFile = $file.FullName
